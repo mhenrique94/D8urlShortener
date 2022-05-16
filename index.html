@@ -2,84 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsiveness.css">
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+	<header class="header">
+		<nav class="nav">
+		<ul class="menu-principal">
+			<li>Features</li>
+			<li>Pricing</li>
+			<li>Resources</li>
+		</ul>
+		<ul class="menu-login">
+			<li>Login</li>
+			<li>Sign Up</li>
+		</ul> 
+		</nav>
+		
+	</header>
 
-  Features
-  Pricing
-  Resources
+	<h1>More than just shorter links</h1>
 
-  Login
-  Sign Up
+	<h2>Build your brand’s recognition and get detailed insights on how your links are performing.</h2>
 
-  More than just shorter links
-
-  Build your brand’s recognition and get detailed insights 
-  on how your links are performing.
-
-  Get Started
+	<button>Get Started</button>
+	
+	<form action="shortit">
+			<input type="text" name="input shortener" id="input_shortener" placeholder="Shorten a link here...">
+			<button type="submit">Shorten It!</button>
+	</form>
   
-  Shorten a link here...
+	<h3>Advanced Statistics</h3>
 
-  Shorten It!
+	<h5>Track how your links are performing across the web with our 
+		advanced statistics dashboard.</h5>
 
-  Advanced Statistics
+	<h4>Brand Recognition</h4>
 
-  Track how your links are performing across the web with our 
-  advanced statistics dashboard.
+	<h5>Boost your brand recognition with each click. Generic links don’t 
+	mean a thing. Branded links help instil confidence in your content.</h5>
 
-  Brand Recognition
+	<h4>Detailed Records</h4>
 
-  Boost your brand recognition with each click. Generic links don’t 
-  mean a thing. Branded links help instil confidence in your content.
+	<h5>Gain insights into who is clicking your links. Knowing when and where 
+	people engage with your content helps inform better decisions.</h5>
 
-  Detailed Records
+	<h4>Fully Customizable</h4>
 
-  Gain insights into who is clicking your links. Knowing when and where 
-  people engage with your content helps inform better decisions.
+	<h5>Improve brand awareness and content discoverability through customizable 
+	links, supercharging audience engagement.</h5>
 
-  Fully Customizable
+	<h3>Boost your links today</h3> 
 
-  Improve brand awareness and content discoverability through customizable 
-  links, supercharging audience engagement.
+	<button>Get Started</button> 
 
-  Boost your links today
+	<footer>
+		<div class="ft-menu">
+			<h5>Features</h5>
+			<p>Link Shortening</p> 
+			<p>Branded Links</p> 
+			<p>Analytics</p> 
+		</div>
 
-  Get Started
+		<div class="fft-menu">
+			<h5>Resources</h5>
+			<p>Blog</p> 
+			<p>Developers</p> 
+			<p>Support</p> 
+		</div>
 
-  Features
+		<div class="ft-menu">
+			<h5>Company</h5>
+			<p>About</p> 
+			<p>Our Team</p> 
+			<p>Careers</p> 
+			<p>Contact</p> 
+		</div>
 
-  Link Shortening
-  Branded Links
-  Analytics
-
-  Resources
-
-  Blog
-  Developers
-  Support
-
-  Company
-
-  About
-  Our Team
-  Careers
-  Contact
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+			Coded by <a href="#">Your Name Here</a>.
+		</div>
+	</footer>
+	
 </body>
 </html>
