@@ -13,12 +13,47 @@ html, body {
     width: 100%;
     font-size: 18px;
 }
+body {
+    padding: 0 10%;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.nav, ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav {
+    padding: 40px 0;
+}
+
+.logo {
+    margin-right: 20px;
+}
+.nv-menu-principal{
+    width: 60%;
+}
+
+.nv-menu-login {
+    width: 40%;
+    justify-content: flex-end;
+
+}
+
+li {
+    margin: 5px 10px;
+    padding: 5px 20px;
+}
+
+.nav li:hover {
+    cursor: pointer;
+    background-color: hsl(180, 83%, 72%);
+    border-radius: 20px;
+    color: white;
+}
 
 .cyan {
-    color: hsl(180, 66%, 49%);
+    background-color: hsl(180, 66%, 49%);
 }
 
 .dark-violet {
@@ -44,3 +79,6 @@ html, body {
 .very-dark-violet {
     color: hsl(260, 8%, 14%);
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
