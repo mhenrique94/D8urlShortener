@@ -15,6 +15,9 @@ html, body {
 }
 body {
     padding: 0 10%;
+    background-image: url(/images/illustration-working.svg);
+    background-position: 120% 50%;
+    background-repeat: no-repeat;
 }
 
 .nav, ul {
@@ -24,7 +27,7 @@ body {
 }
 
 .nav {
-    padding: 40px 0;
+    padding-top: 40px;
 }
 
 .logo {
@@ -40,14 +43,15 @@ body {
 
 }
 
-li {
+.nv-menu-login li, .nv-menu-principal li {
     margin: 5px 10px;
-    padding: 5px 20px;
+    padding: 5px 5%;
+    min-width: max-content;
 }
 
 .nav li:hover {
     cursor: pointer;
-    background-color: hsl(180, 83%, 72%);
+    background-color: hsl(180, 66%, 49%);
     border-radius: 20px;
     color: white;
 }
@@ -79,6 +83,40 @@ li {
 .very-dark-violet {
     color: hsl(260, 8%, 14%);
 }
+
+.banner {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.3rem;
+    width: 70%;
+}
+
+.subtitulo {
+    width: 60%;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.btnGetStarted{
+    cursor: pointer;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 40px;
+    color: white;
+    max-width: 180px;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 30px;
+    margin-top: 2rem;
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
