@@ -16,7 +16,7 @@ html, body {
 body {
     padding: 0 10%;
     background-image: url(../images/illustration-working.svg);
-    background-position: 120% 50%;
+    background-position: 120% 180px;
     background-repeat: no-repeat;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .banner {
-    height: 75vh;
+    height: 660px;
     display: flex;
     flex-direction: column;
     justify-content: center;    
