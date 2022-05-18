@@ -15,7 +15,7 @@ html, body {
 }
 body {
     padding: 0 10%;
-    background-image: url(/images/illustration-working.svg);
+    background-image: url(../images/illustration-working.svg);
     background-position: 120% 50%;
     background-repeat: no-repeat;
 }
